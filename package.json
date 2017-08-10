@@ -1,0 +1,27 @@
+{
+  "name": "progressivewebapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfrag/ProgressiveWebApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfrag/ProgressiveWebApp/issues"
+  },
+  "homepage": "https://github.com/sfrag/ProgressiveWebApp#readme",
+  "devDependencies": {
+    "sw-precache": "^5.2.0"
+  },
+  "scripts": {
+      "sw": "sw-precache --config=tools/precache.js --verbose"
+  }
+  
+}
